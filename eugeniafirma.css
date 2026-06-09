@@ -1,0 +1,57 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g3: #6F628A;
+  --g10: #B88A99;
+  --colorr: #DBC7FF;  
+}
+
+.evg-s-bx {width: 300px; height: 180px; margin: auto; position: relative; overflow: hidden; border: 10px solid var(--g3); border-image: linear-gradient(to left, var(--colorr) 0%, var(--g3) 100%) 1; outline: 1px solid var(--colorr); outline-offset: -10px; transition: all ease-in-out 0.7s}
+
+.evg-s-bx:hover {transition: all ease-in-out 0.7s; border-image: linear-gradient(to left, var(--g3) 0%, var(--colorr) 100%) 1; outline: 1px solid var(--colorr); outline-offset: -10px;}
+
+.evg-s-bx img {margin: auto; width: 300px; height: 180px; transition: all ease-in-out 0.7s}
+
+.evg-s-bx:hover img {transiition: all ease-in.out 0.7s; filter: grayscale(1) brightness(50%)}
+
+.evg-back {width: 0px; height: 185px; margin: -185px 0px 0px 0px; position: absolute; background: var(--colorr); mix-blend-mode: multiply; transition: all ease-in-out 0.7s}
+
+.evg-s-bx:hover .evg-back {transition: all ease-in-out 0.7s; width: 300px; height: 185px;}
+
+.e-text-a {width: 100px; height: auto; margin: -77px 0px 0px 10px; position: absolute; font-family: montserrat; font-weight: 500; text-transform: uppercase; color: #ddd; font-size: 10px; line-height: 100%; transition: all ease-in-out 0.7s; opacity: 1; border-left: 5px solid var(--g3); padding: 5px; transition-delay: 0.5s}
+
+.e-text-b {width: 120px; height: auto; margin: -50px 0px 0px 55px; position: absolute; font-family: ballet; font-weight: 500; font-size: 40px; color: #eee; transition: all ease-in-out 0.7s; opacity: 1; filter: blur(0px); transition-delay: 0.5s}
+
+.evg-s-bx:hover .e-text-a {transition: all ease-in-out 0.7s; opacity: 0; filter: blur(5px)}
+
+.evg-s-bx:hover .e-text-b {transition: all ease-in-out 0.7s; opacity: 0; filter: blur(5px)}
+
+.e-icon-bright {width: 70px; height: 70px; margin: -170px 0px 0px 110px; position: absolute; font-size: 70px; animation: bright 2s ease 0s infinite normal none; color: transparent; transition: all ease-in-out 0.7s; opacity: 0; text-align: center;}
+
+@keyframes bright {0% {opacity: 1;} 50% {opacity: 0.2;} 100% {opacity: 1;}}
+
+.evg-s-bx:hover .e-icon-bright {transition: all ease-in-out 0.7s; opacity: 1; color: var(--colorr); transition-delay: 0.7s}
+
+.e-text-c {width: 300px; height: auto; margin: -90px 0px 0px 0px; position: absolute; text-align: center; font-family: bodoni moda sc; font-size: 12px; color: #eee;; letter-spacing: 2px; line-height: 200%; transition: all ease-in-out 0.7s; opacity: 0}
+
+.evg-s-bx:hover .e-text-c {transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.9s}
+
+
